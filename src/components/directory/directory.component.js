@@ -25,18 +25,6 @@ class Directory extends React.Component {
                     imageUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQENgm8iHViJY7igbBelx7Ps61fkhUpL--z_E024mWFUF18p_p5kVqW-Td_0gQjp9vrGuE&usqp=CAU',
                     id:3,
                     linkUrl:'dairy'
-                },
-                 {
-                    title:'dairy',
-                    imageUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQENgm8iHViJY7igbBelx7Ps61fkhUpL--z_E024mWFUF18p_p5kVqW-Td_0gQjp9vrGuE&usqp=CAU',
-                    id:3,
-                    linkUrl:'dairy'
-                },
-                 {
-                    title:'dairy',
-                    imageUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQENgm8iHViJY7igbBelx7Ps61fkhUpL--z_E024mWFUF18p_p5kVqW-Td_0gQjp9vrGuE&usqp=CAU',
-                    id:3,
-                    linkUrl:'dairy'
                 }
             ]
         }
