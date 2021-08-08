@@ -1,10 +1,11 @@
 import React from 'react';
+import { withRouter } from 'react-router';
 import MenuItem from '../menu-item/menu-item.component';
 
 import './directory.styles.scss';
 
 class Directory extends React.Component {
-    constructor(){
+    constructor(props){
         super();
         this.state = {
             sections : [
@@ -32,6 +33,7 @@ class Directory extends React.Component {
     }    
 
     render(){
+        console.log(this.props);
         return(
             <div className='directory-menu'>
             
@@ -48,4 +50,4 @@ class Directory extends React.Component {
     }
 }
 
-export default Directory;
+export default withRouter(Directory);

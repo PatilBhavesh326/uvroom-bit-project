@@ -9,7 +9,8 @@ const MenuItem = ({title, imageUrl, linkUrl, history, match, location }) => {
     console.log(location)
 
     return (
-        <div className='menu-item'>
+        <div className='menu-item'
+        onClick={ ()=> history.push(`${match.url}${linkUrl}`) }>
 
         <div
             className='background-image'
@@ -25,4 +26,4 @@ const MenuItem = ({title, imageUrl, linkUrl, history, match, location }) => {
     )
 }
 
-export default MenuItem;
+export default withRouter(MenuItem);
