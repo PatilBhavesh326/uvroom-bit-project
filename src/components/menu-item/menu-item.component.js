@@ -4,9 +4,9 @@ import './menu-item.styles.scss';
 
 const MenuItem = ({title, imageUrl, linkUrl, history, match, location }) => {
 
-    console.log(history)
-    console.log(match)
-    console.log(location)
+    // console.log(history)
+    // console.log(match)
+    // console.log(location)
 
     return (
         <div className='menu-item'
