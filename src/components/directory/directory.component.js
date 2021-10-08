@@ -17,7 +17,7 @@ class Directory extends React.Component {
         //this function gets triggered when when the component is loaded
         // Call an API when the components mount
 
-        //making cal with fetch api of JS
+        //making call with fetch api of JS
         fetch('https://fakestoreapi.com/products')
         .then(res => res.json())
         .then(response => {
