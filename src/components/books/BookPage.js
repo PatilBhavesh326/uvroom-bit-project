@@ -1,7 +1,7 @@
 import React from 'react';
 //HOC of react-redux library
 import { connect } from 'react-redux';
-import * as bookActions from '../../actions/bookActions';
+import bookActions from '../../actions/index';
 
 class Book extends React.Component {
 

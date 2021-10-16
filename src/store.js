@@ -1,5 +1,5 @@
 import { applyMiddleware, createStore } from 'redux';
-import bookReducer from './reducers/bookReducer';
+import rootReducer from "./reducers/index"
 
 import { createLogger } from 'redux-logger';
 
@@ -9,5 +9,5 @@ const logger = createLogger({
 
 export default function configureStore(state){
 
-    return createStore(bookReducer, state, applyMiddleware(logger))
+    return createStore(rootReducer, state, applyMiddleware(logger))
 }
